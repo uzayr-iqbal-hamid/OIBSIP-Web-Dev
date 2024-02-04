@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  font-family: "Poppins";
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+#box{
+    position: relative;
+    height: 70vh;
+    width: 70vh;
+    border-radius: 10px;
+    border: none;
+    box-shadow: ;
+    padding-left: 0;
+    padding-right: 0;
+    margin: 25vh auto;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.6);
+}
+
+.title{
+    font-size: large;
+    padding-top: 15px;
+    margin-top: 10px;
+    margin-bottom: 35px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#first{
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 0 25px;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+select{
+    margin: 0.8em;
+    padding-left: 0.8em;
+    height: 60px;
+    width: 150px;
+    border: none;
+    border-radius: 20px;;
+}
+
+#convert-btn{
+    width: 200px;
+    height: 50px;
+    padding-left: 0;
+    padding-right: 0;
+    margin: 15px auto;
+    position: absolute;
+    top: 45%;
+    left: 28%;
+    border: none;
+    border-radius: 12px;
+    background-color: #8686ec;
+    color: #cff;
+    transition-duration: 0.3s;
+    cursor: pointer;
+}
+
+hr{
+    border: none;
+    height: 0.5px;
+    background-color: rgb(139, 139, 139);
+}
+
+#convert-btn:hover{
+    background-color: #6868ee;
+    box-shadow: 0 10px 25px inset darkblue;
+}
+
+#result{
+    position: absolute;
+    top: 70%;
+    left: 25%;
+    width: 50%;
+    background-color: rgb(185, 185, 221);
+    border-radius: 10px;
+    height: 40px;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.inputGroup {
+    margin: 1em 0 1em 0;
+    max-width: 190px;
+    position: relative;
+  }
+  
+  .inputGroup input {
+    font-size: 100%;
+    padding: 0.8em;
+    outline: none;
+    border: 2px solid rgb(200, 200, 200);
+    background-color: transparent;
+    border-radius: 20px;
+    width: 100%;
+  }
+  
+  .inputGroup label {
+    font-size: 100%;
+    position: absolute;
+    left: 0;
+    padding: 0.8em;
+    margin-left: 0.5em;
+    pointer-events: none;
+    transition: all 0.3s ease;
+    color: rgb(100, 100, 100);
+  }
+  
+  .inputGroup :is(input:focus, input:valid)~label {
+    transform: translateY(-50%) scale(.9);
+    margin: 0em;
+    margin-left: 1.3em;
+    padding: 0.4em;
+    background-color: white;
+  }
+  
+  .inputGroup :is(input:focus, input:valid) {
+    border-color: rgb(150, 150, 200);
+  }
+
